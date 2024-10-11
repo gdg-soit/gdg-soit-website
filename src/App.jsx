@@ -1,24 +1,19 @@
-import { Route, Routes } from "react-router-dom"
-
-import NavBar from "./components/NavBar"
-import Home from "./pages/Home"
-import Teams from "./pages/Teams"
-import Event from "./pages/Event"
-import Blogs from "./pages/Blogs"
+import { useEffect, useState } from "react"
+import Loader from "./components/Loader"
+import Init from "./init";
 
 
 function App() {
+  const [loader, setLoader] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 2000);
+  }, []);
 
   return (
     <div className="inter-4">
-      <NavBar />
-      <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/teams" element={ <Teams/> } />
-        <Route path="/event" element= { <Event/>} />
-        <Route path="/blogs" element= { <Blogs/>} />
-      </Routes>
-      {/* Footer */}
+      {loader ? <Loader /> : <Init />}
     </div>
   )
 }
