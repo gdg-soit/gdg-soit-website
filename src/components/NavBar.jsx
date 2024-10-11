@@ -1,6 +1,6 @@
 import "../css/navbar.css";
 import React from "react";
-import gdsc from "../Assets/img/gdsc-gif.gif";
+import gdsc from "../assets/img/gdsc-gif.gif";
 import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
