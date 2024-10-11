@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Loader from "./components/Loader"
-import Init from "./init";
+import Init from "./Init";
 
 
 function App() {
