@@ -36,7 +36,7 @@ export default function NavBar() {
             </li>
 
           <li>
-            <a className="joinus inter-4" href="https://gdg.community.dev/gdg-on-campus-school-of-information-technology-bhopal-india/">
+            <a className="joinus inter-4" href="https://gdg.community.dev/gdg-on-campus-school-of-information-technology-bhopal-india/" target="_blank" >
               Join Us
             </a>
           </li>
