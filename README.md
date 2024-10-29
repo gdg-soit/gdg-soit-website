@@ -1,10 +1,7 @@
 # Website of GDG On Campus SOIT RGPV
 
-- Edit the README.md
+## About GDG On Campus SOIT RGPV
+GDG On Campus SOIT RGPV is a student community group at School of Information Technology, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal. We are a group of students who are passionate about technology and are willing to learn and share our knowledge with others. We conduct various events, workshops, and sessions to help students learn and grow in the field of technology. We are a part of the Google Developers Group community and are affiliated with Google.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Our Vision
+Our vision is to create a community of students who are passionate about technology and are willing to learn and grow in the field of technology. We aim to provide a platform for students to learn and share their knowledge with others. We want to create a community of students who are passionate about technology and are willing to learn and grow in the field of technology.
